@@ -1,7 +1,8 @@
+<script>
 $(".countdown-block copy").countdown("2023/08/10", function(event) {
 	$('#days1').text(
 		event.strftime('%D')
-	);
+		);
   $('#hours1').text(
 		event.strftime('%H')
 	);
@@ -12,3 +13,7 @@ $(".countdown-block copy").countdown("2023/08/10", function(event) {
 		event.strftime('%S')
 	);
 });
+
+
+
+</script>
